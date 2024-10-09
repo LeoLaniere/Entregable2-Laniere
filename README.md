@@ -1,1 +1,1 @@
-# Ecomerece Laniere
+# Ecomerce Laniere
