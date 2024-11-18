@@ -3,6 +3,7 @@ import CartWidget from "./CartWidget"
 import { Link } from "react-router-dom"
 import './Navbar.css'
 
+
 const Navbar = () => {
   return (
         <nav class="navbar navbar-expand-lg bg-body-tertiary">

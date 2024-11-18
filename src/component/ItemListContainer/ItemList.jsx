@@ -3,7 +3,6 @@ import './ItemList.css'
 
 const ItemList =( {products} ) =>{
 
-
     return(
         <div class="row row-cols-1 row-cols-md-4 g-4">
             {
