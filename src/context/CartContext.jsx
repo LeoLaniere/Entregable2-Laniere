@@ -16,8 +16,6 @@ const CartPovider= ({ children }) =>{
             setCart( [...cart, newProduct])
         }
     }
-    console.log(cart)
-
 
     const cartTotalQuantity =() =>{
         

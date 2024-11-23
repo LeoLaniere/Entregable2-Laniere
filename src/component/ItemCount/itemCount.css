@@ -1,0 +1,12 @@
+.card-quant {
+    display: flex;
+    padding-top: 2rem;
+}
+.card-quant-num{
+    font-size: large;
+    padding-left:2rem;
+    padding-right:2rem;
+}
+.CartBtn{
+    margin-left: 2rem;
+}

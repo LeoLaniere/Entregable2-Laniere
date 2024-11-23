@@ -1,4 +1,6 @@
 import { useState } from "react"
+import './ItemCount.css'
+import { right } from "@popperjs/core"
 
 const ItemCount = ({ stock, addProduct}) => {
     const [count, setCount] = useState(1)
@@ -15,10 +17,10 @@ const ItemCount = ({ stock, addProduct}) => {
     }
 
     return (
-        <div>
-            <button onClick={handleClickSubstract}> - </button>
-            <p>{count}</p>
-            <button onClick={handleClickAdd}> + </button>
+        <div class="card-quant">
+            <button type="button" class="btn btn-outline-secondary" onClick={handleClickSubstract}> - </button>
+            <p class ="card-quant-num">{count}</p>
+            <button type="button" class="btn btn-outline-secondary" onClick={handleClickAdd}> + </button>
             <button class="CartBtn" onClick={ ()=>addProduct(count) }>
                 <p class="CartBtn-text">Agregar al Carrito</p>
             </button>

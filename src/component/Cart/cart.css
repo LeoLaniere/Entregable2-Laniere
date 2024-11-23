@@ -1,0 +1,26 @@
+.cart-mainTitle{
+    margin: 2rem;
+}
+.cart-secTitle{
+    margin: 3rem;
+}
+.cart-Link-main{
+    font-size: 1.5rem;
+    padding: 2rem;
+    color: black;
+}
+
+.img-fluid{
+    max-width: 15rem;
+}
+.cartActions{
+    display: flex;
+    align-items: center;
+    align-self: center;
+    
+}
+.cartActions-text{
+    font-size: 1.5rem;
+    padding-right: 2rem;
+    color: black;
+}

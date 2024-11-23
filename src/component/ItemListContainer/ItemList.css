@@ -1,0 +1,7 @@
+.row{
+    padding: 1rem;
+    display: flex;
+}
+.card{
+    padding-left: 2rem;
+}
